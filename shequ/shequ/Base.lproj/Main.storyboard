@@ -41,7 +41,7 @@
             </objects>
             <point key="canvasLocation" x="533" y="-836"/>
         </scene>
-        <!--Project Express View Controller-->
+        <!--Project Express View Controller - 项目快车-->
         <scene sceneID="s7m-Zh-RTz">
             <objects>
                 <viewController id="9kQ-1g-WoG" customClass="ProjectExpressViewController" sceneMemberID="viewController">
@@ -130,7 +130,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="1zm-63-mg5"/>
+                    <navigationItem key="navigationItem" title="项目快车" id="1zm-63-mg5">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="Bsk-mn-GJs"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="Vrj-sn-GJm"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lqw-aL-Nw6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -369,7 +372,7 @@
             </objects>
             <point key="canvasLocation" x="533" y="1217"/>
         </scene>
-        <!--Login View Controller-->
+        <!--Login View Controller - 个人中心-->
         <scene sceneID="XWx-Bp-Xsa">
             <objects>
                 <viewController id="rax-qc-gsN" customClass="LoginViewController" sceneMemberID="viewController">
@@ -464,7 +467,7 @@
                             <action selector="clickBackground:" destination="rax-qc-gsN" eventType="touchDown" id="q6d-Vq-lrb"/>
                         </connections>
                     </view>
-                    <navigationItem key="navigationItem" id="c60-yQ-pxy"/>
+                    <navigationItem key="navigationItem" title="个人中心" id="c60-yQ-pxy"/>
                     <connections>
                         <outlet property="accountTextField" destination="kfy-3n-URV" id="KEV-o5-SIh"/>
                         <outlet property="passwordTextField" destination="rF0-eP-u6B" id="bgR-ka-Jfm"/>

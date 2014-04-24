@@ -7,7 +7,8 @@
 //
 
 #import "AOScrollerView.h"
-#define WIDTH 320
+#define WIDTH 314
+//滑动里面的滑动宽度写死了 AOScrollerView里面的changeView函数里面每次滑动的长度定死了，是WIDTH 320
 @implementation AOScrollerView
 
 - (id)initWithFrame:(CGRect)frame
@@ -154,7 +155,9 @@
     //        page=0;
     //    }
     //设置滚动到第几页
-    [imageSV setContentOffset:CGPointMake(WIDTH*page, 0) animated:YES];
+//    [imageSV setContentOffset:CGPointMake(WIDTH*page, 0) animated:YES];
+    [imageSV setContentOffset:CGPointMake(imageSV.frame.size.width *page, 0)
+                     animated:YES];
     
 }
 
