@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EC1A9F17-7117-40D7-A938-A09B10E81898</string>
+	<key>IDESourceControlProjectName</key>
+	<string>shequ</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F9ABE69F-9B99-497F-A63A-AD9CF44D0D68</key>
+		<string>http://192.168.1.99:8888/svn/IOS/SheQu/shequ</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>shequ.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F9ABE69F-9B99-497F-A63A-AD9CF44D0D68</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>F9ABE69F-9B99-497F-A63A-AD9CF44D0D68</key>
+		<string>http://192.168.1.99:8888/svn/IOS</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.1.99:8888/svn/IOS/SheQu/shequ/shequ.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F9ABE69F-9B99-497F-A63A-AD9CF44D0D68</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F9ABE69F-9B99-497F-A63A-AD9CF44D0D68</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shequ</string>
+		</dict>
+	</array>
+</dict>
+</plist>
