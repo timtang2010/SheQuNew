@@ -1,0 +1,79 @@
+//
+//  ProjectExpressViewController.m
+//  shequ
+//
+//  Created by yuxin tang on 14-4-22.
+//  Copyright (c) 2014年 v5mcs. All rights reserved.
+//
+
+#import "ProjectExpressViewController.h"
+
+@interface ProjectExpressViewController ()
+
+@end
+
+@implementation ProjectExpressViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    
+    //设置网络图片
+    NSMutableArray *webImageArray = [[NSMutableArray alloc]initWithObjects:
+                                     @"http://203.156.251.85/sqmis/uploads//imgs/20140421152444683.jpg",
+                                     @"http://203.156.251.85/sqmis/uploads//imgs/2014042115222597.jpg",
+                                     @"http://203.156.251.85/sqmis/uploads//imgs/20140421144958682.png",
+                                     @"http://203.156.251.85/sqmis/uploads//imgs/20140421143756500.jpg",
+                                     @"http://203.156.251.85/sqmis/uploads//imgs/20140421143424427.jpg",
+                                     nil];
+    //设置网络标题
+    NSMutableArray *WebImageName = [[NSMutableArray alloc]initWithObjects:
+                                    @"(党务)党总支居民半月谈活动",
+                                    @"(党务)党总支为民服务月活动",
+                                    @"观三林老街的变化",
+                                    @"开展党的群众路线教育实践活动之六",
+                                    @"殷行街道生活服务中心举行大龄青年家长免费咨询会",
+                                    nil];
+    
+    //初始化自定义ScrollView类对象 并设置图片的高度 height = 179
+    AOScrollerView *aSV = [[AOScrollerView alloc]initWithNameArr:webImageArray titleArr:WebImageName height:179];
+    //设置委托
+    aSV.vDelegate = self;
+    
+    //添加进入View
+    [self.view addSubview:aSV];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+#pragma AOScrollViewDelegate
+-(void)buttonClick:(int)vid{
+    NSLog(@"%d",vid);
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

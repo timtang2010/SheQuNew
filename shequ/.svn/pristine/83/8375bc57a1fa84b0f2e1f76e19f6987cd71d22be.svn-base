@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C7BEEFD-EF6A-49F2-90C3-B7C2B9A5940B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>shequ</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4B81A71F-EF37-4D16-92CE-87A770DBF3C9</key>
+		<string>https://github.com/timtang2010/SheQu.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>shequ.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4B81A71F-EF37-4D16-92CE-87A770DBF3C9</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/timtang2010/SheQu.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4B81A71F-EF37-4D16-92CE-87A770DBF3C9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4B81A71F-EF37-4D16-92CE-87A770DBF3C9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>shequ</string>
+		</dict>
+	</array>
+</dict>
+</plist>
