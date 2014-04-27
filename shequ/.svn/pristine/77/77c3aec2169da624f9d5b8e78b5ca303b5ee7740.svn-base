@@ -5,36 +5,41 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7243B3E0-80D5-4EC3-9FC7-A7DA5DDDADB1</string>
+	<string>4211D2BB-3685-4F8E-B158-C856BEA5AB40</string>
 	<key>IDESourceControlProjectName</key>
 	<string>shequ</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8A17AED2-102C-42B6-88C1-11E8C983C0EF</key>
-		<string>https://github.com/timtang2010/SheQuNew.git</string>
+		<key>A7217E77-E95B-4EF2-83DD-CFD4D9AB4355</key>
+		<string>http://192.168.1.99:8888/svn/IOS/SheQu/shequ</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>shequ/shequ.xcodeproj/project.xcworkspace</string>
+	<string>shequ.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8A17AED2-102C-42B6-88C1-11E8C983C0EF</key>
-		<string>../../..</string>
+		<key>A7217E77-E95B-4EF2-83DD-CFD4D9AB4355</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>A7217E77-E95B-4EF2-83DD-CFD4D9AB4355</key>
+		<string>http://192.168.1.99:8888/svn/IOS</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/timtang2010/SheQuNew.git</string>
+	<string>http://192.168.1.99:8888/svn/IOS/SheQu/shequ/shequ.xcodeproj</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8A17AED2-102C-42B6-88C1-11E8C983C0EF</string>
+	<string>A7217E77-E95B-4EF2-83DD-CFD4D9AB4355</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8A17AED2-102C-42B6-88C1-11E8C983C0EF</string>
+			<string>A7217E77-E95B-4EF2-83DD-CFD4D9AB4355</string>
 			<key>IDESourceControlWCCName</key>
-			<string>SheQu</string>
+			<string>shequ</string>
 		</dict>
 	</array>
 </dict>

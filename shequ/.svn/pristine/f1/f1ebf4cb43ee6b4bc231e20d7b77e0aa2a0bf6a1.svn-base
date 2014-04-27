@@ -32,7 +32,6 @@
 		2CC114E0190513E100BC1DEC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CC114DE190513E100BC1DEC /* InfoPlist.strings */; };
 		2CC114E2190513E100BC1DEC /* shequTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC114E1190513E100BC1DEC /* shequTests.m */; };
 		2CC1157E19051BC300BC1DEC /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CC1157D19051BC300BC1DEC /* RootTabBarController.m */; };
-		2CE863FE1909F61F00AA32FF /* ProjectExpressFormTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE863FD1909F61F00AA32FF /* ProjectExpressFormTableViewController.m */; };
 		2CF011B81908F75700D8D743 /* CPTextViewPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF011AD1908F75600D8D743 /* CPTextViewPlaceholder.m */; };
 		2CF011B91908F75700D8D743 /* RSTapRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF011B01908F75600D8D743 /* RSTapRateView.m */; };
 		2CF011BA1908F75700D8D743 /* UIImageView+Reflected.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF011B21908F75700D8D743 /* UIImageView+Reflected.m */; };
@@ -48,6 +47,7 @@
 		5A3520D019095C11006BC5F9 /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A3520CE19095C11006BC5F9 /* carat.png */; };
 		5A3E95611907FE9A004DD12D /* ProjectExpressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E95601907FE9A004DD12D /* ProjectExpressTableViewController.m */; };
 		5A3E9564190804C0004DD12D /* ProjectExpressList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E9563190804C0004DD12D /* ProjectExpressList.plist */; };
+		5A3E956B19080823004DD12D /* ProjectExpressFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E956A19080823004DD12D /* ProjectExpressFormViewController.m */; };
 		5A3E956D19080A67004DD12D /* shanghaiArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E956C19080A67004DD12D /* shanghaiArea.plist */; };
 		5AB5C7A01908C287003E3FB4 /* 登陆_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5C79E1908C287003E3FB4 /* 登陆_03.png */; };
 		5AB5C7A11908C287003E3FB4 /* 登陆_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5C79F1908C287003E3FB4 /* 登陆_05.png */; };
@@ -187,8 +187,6 @@
 		2CC114E1190513E100BC1DEC /* shequTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shequTests.m; sourceTree = "<group>"; };
 		2CC1157C19051BC300BC1DEC /* RootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTabBarController.h; sourceTree = "<group>"; };
 		2CC1157D19051BC300BC1DEC /* RootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTabBarController.m; sourceTree = "<group>"; };
-		2CE863FC1909F61F00AA32FF /* ProjectExpressFormTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressFormTableViewController.h; sourceTree = SOURCE_ROOT; };
-		2CE863FD1909F61F00AA32FF /* ProjectExpressFormTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressFormTableViewController.m; sourceTree = SOURCE_ROOT; };
 		2CF011AC1908F75600D8D743 /* CPTextViewPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTextViewPlaceholder.h; sourceTree = "<group>"; };
 		2CF011AD1908F75600D8D743 /* CPTextViewPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTextViewPlaceholder.m; sourceTree = "<group>"; };
 		2CF011AF1908F75600D8D743 /* RSTapRateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSTapRateView.h; sourceTree = "<group>"; };
@@ -212,6 +210,8 @@
 		5A3E955F1907FE9A004DD12D /* ProjectExpressTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressTableViewController.h; sourceTree = "<group>"; };
 		5A3E95601907FE9A004DD12D /* ProjectExpressTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressTableViewController.m; sourceTree = "<group>"; };
 		5A3E9563190804C0004DD12D /* ProjectExpressList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProjectExpressList.plist; sourceTree = "<group>"; };
+		5A3E956919080823004DD12D /* ProjectExpressFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressFormViewController.h; sourceTree = "<group>"; };
+		5A3E956A19080823004DD12D /* ProjectExpressFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressFormViewController.m; sourceTree = "<group>"; };
 		5A3E956C19080A67004DD12D /* shanghaiArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shanghaiArea.plist; sourceTree = "<group>"; };
 		5AB5C79E1908C287003E3FB4 /* 登陆_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆_03.png"; sourceTree = "<group>"; };
 		5AB5C79F1908C287003E3FB4 /* 登陆_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆_05.png"; sourceTree = "<group>"; };
@@ -548,8 +548,8 @@
 				5ABF514919060CC900FA25D7 /* ProjectExpressViewController.m */,
 				5A3E955F1907FE9A004DD12D /* ProjectExpressTableViewController.h */,
 				5A3E95601907FE9A004DD12D /* ProjectExpressTableViewController.m */,
-				2CE863FC1909F61F00AA32FF /* ProjectExpressFormTableViewController.h */,
-				2CE863FD1909F61F00AA32FF /* ProjectExpressFormTableViewController.m */,
+				5A3E956919080823004DD12D /* ProjectExpressFormViewController.h */,
+				5A3E956A19080823004DD12D /* ProjectExpressFormViewController.m */,
 				5AB5C7A21908DB36003E3FB4 /* ProjectExpressMovingTableViewController.h */,
 				5AB5C7A31908DB36003E3FB4 /* ProjectExpressMovingTableViewController.m */,
 				5AB5C7AA1908EF2E003E3FB4 /* ProjectExpressWebViewController.h */,
@@ -1019,6 +1019,7 @@
 				5ABF5163190610BC00FA25D7 /* AOScrollerView.m in Sources */,
 				5ABF5166190610BC00FA25D7 /* SDWebImageDownloader.m in Sources */,
 				5AB5C7AF19090792003E3FB4 /* PolicyHelperTableViewController.m in Sources */,
+				5A3E956B19080823004DD12D /* ProjectExpressFormViewController.m in Sources */,
 				2CF011C51908F7F000D8D743 /* FeedbackViewController.m in Sources */,
 				2C1BD59F190664DF002302BE /* PolicyHelperNavigationController.m in Sources */,
 				5AB5C7AC1908EF2E003E3FB4 /* ProjectExpressWebViewController.m in Sources */,
@@ -1030,7 +1031,6 @@
 				5ABF5164190610BC00FA25D7 /* NSURLAdditions.m in Sources */,
 				2C1BD5B0190664F2002302BE /* RegisterViewController.m in Sources */,
 				2C1BD5AE190664F2002302BE /* LoginViewController.m in Sources */,
-				2CE863FE1909F61F00AA32FF /* ProjectExpressFormTableViewController.m in Sources */,
 				2C1BD5AD190664F2002302BE /* PersonalCenterNavigationController.m in Sources */,
 				2C1BD5A2190664E8002302BE /* LifeHelperNavigationController.m in Sources */,
 				2CC114C3190513E100BC1DEC /* main.m in Sources */,

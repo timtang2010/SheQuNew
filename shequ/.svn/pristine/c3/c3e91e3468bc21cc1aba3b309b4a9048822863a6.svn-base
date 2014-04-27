@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7243B3E0-80D5-4EC3-9FC7-A7DA5DDDADB1</string>
+	<string>49E281FD-DB73-4104-8104-361B26FF851F</string>
 	<key>IDESourceControlProjectName</key>
 	<string>shequ</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8A17AED2-102C-42B6-88C1-11E8C983C0EF</key>
+		<key>C7C38F4E-5257-43EC-B13B-6DB4118CE660</key>
 		<string>https://github.com/timtang2010/SheQuNew.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>shequ/shequ.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8A17AED2-102C-42B6-88C1-11E8C983C0EF</key>
+		<key>C7C38F4E-5257-43EC-B13B-6DB4118CE660</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8A17AED2-102C-42B6-88C1-11E8C983C0EF</string>
+	<string>C7C38F4E-5257-43EC-B13B-6DB4118CE660</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8A17AED2-102C-42B6-88C1-11E8C983C0EF</string>
+			<string>C7C38F4E-5257-43EC-B13B-6DB4118CE660</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SheQu</string>
 		</dict>
