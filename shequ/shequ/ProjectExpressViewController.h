@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AOScrollerView.h"
+#import "ProjectExpressScrollerView.h"
 
 @interface ProjectExpressViewController : UIViewController<ValueClickDelegate>
 @property (strong, nonatomic) NSArray *urls;

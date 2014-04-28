@@ -54,7 +54,7 @@
     
     //初始化自定义ScrollView类对象 并设置图片的高度 height = 179
 //    AOScrollerView *aSV = [[AOScrollerView alloc]initWithNameArr:webImageArray titleArr:WebImageName height:179];
-    AOScrollerView *aSV = [[AOScrollerView alloc]initWithNameArr:webImageArray
+    ProjectExpressScrollerView *aSV = [[ProjectExpressScrollerView alloc]initWithNameArr:webImageArray
                                                         titleArr:WebImageName
                                                            frame:[self.view viewWithTag:321].frame];
     

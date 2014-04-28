@@ -57,6 +57,8 @@
 		5AB5C7AF19090792003E3FB4 /* PolicyHelperTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5C7AE19090792003E3FB4 /* PolicyHelperTableViewController.m */; };
 		5AB5C7B1190908B0003E3FB4 /* PolicyHelper.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5C7B0190908B0003E3FB4 /* PolicyHelper.plist */; };
 		5AB5C7B41909090B003E3FB4 /* PolicyHelperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5C7B31909090B003E3FB4 /* PolicyHelperTableViewCell.m */; };
+		5AB99F0C190E4B3D002F0A65 /* PolicyHelperScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB99F09190E4B3D002F0A65 /* PolicyHelperScrollerView.m */; };
+		5AB99F0D190E4B3D002F0A65 /* PolicyHelperImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB99F0B190E4B3D002F0A65 /* PolicyHelperImageView.m */; };
 		5ABF51021906016500FA25D7 /* 个人中心_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF50B11906016500FA25D7 /* 个人中心_03.png */; };
 		5ABF51031906016500FA25D7 /* 个人中心_03_06.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF50B21906016500FA25D7 /* 个人中心_03_06.png */; };
 		5ABF51041906016500FA25D7 /* 个人中心-我的设置_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF50B41906016500FA25D7 /* 个人中心-我的设置_03.png */; };
@@ -119,8 +121,8 @@
 		5ABF51461906016500FA25D7 /* 预约_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF51001906016500FA25D7 /* 预约_03.png */; };
 		5ABF51471906016500FA25D7 /* 预约_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF51011906016500FA25D7 /* 预约_10.png */; };
 		5ABF514A19060CC900FA25D7 /* ProjectExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF514919060CC900FA25D7 /* ProjectExpressViewController.m */; };
-		5ABF5162190610BC00FA25D7 /* AOImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF514E190610BC00FA25D7 /* AOImageView.m */; };
-		5ABF5163190610BC00FA25D7 /* AOScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF5150190610BC00FA25D7 /* AOScrollerView.m */; };
+		5ABF5162190610BC00FA25D7 /* ProjectExpressImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF514E190610BC00FA25D7 /* ProjectExpressImageView.m */; };
+		5ABF5163190610BC00FA25D7 /* ProjectExpressScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF5150190610BC00FA25D7 /* ProjectExpressScrollerView.m */; };
 		5ABF5164190610BC00FA25D7 /* NSURLAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF5153190610BC00FA25D7 /* NSURLAdditions.m */; };
 		5ABF5165190610BC00FA25D7 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF5155190610BC00FA25D7 /* SDImageCache.m */; };
 		5ABF5166190610BC00FA25D7 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF5159190610BC00FA25D7 /* SDWebImageDownloader.m */; };
@@ -225,6 +227,10 @@
 		5AB5C7B0190908B0003E3FB4 /* PolicyHelper.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PolicyHelper.plist; sourceTree = "<group>"; };
 		5AB5C7B21909090B003E3FB4 /* PolicyHelperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolicyHelperTableViewCell.h; sourceTree = "<group>"; };
 		5AB5C7B31909090B003E3FB4 /* PolicyHelperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolicyHelperTableViewCell.m; sourceTree = "<group>"; };
+		5AB99F08190E4B3D002F0A65 /* PolicyHelperScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolicyHelperScrollerView.h; sourceTree = "<group>"; };
+		5AB99F09190E4B3D002F0A65 /* PolicyHelperScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolicyHelperScrollerView.m; sourceTree = "<group>"; };
+		5AB99F0A190E4B3D002F0A65 /* PolicyHelperImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolicyHelperImageView.h; sourceTree = "<group>"; };
+		5AB99F0B190E4B3D002F0A65 /* PolicyHelperImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolicyHelperImageView.m; sourceTree = "<group>"; };
 		5ABF50B11906016500FA25D7 /* 个人中心_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心_03.png"; sourceTree = "<group>"; };
 		5ABF50B21906016500FA25D7 /* 个人中心_03_06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心_03_06.png"; sourceTree = "<group>"; };
 		5ABF50B41906016500FA25D7 /* 个人中心-我的设置_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人中心-我的设置_03.png"; sourceTree = "<group>"; };
@@ -288,10 +294,10 @@
 		5ABF51011906016500FA25D7 /* 预约_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约_10.png"; sourceTree = "<group>"; };
 		5ABF514819060CC900FA25D7 /* ProjectExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressViewController.h; sourceTree = "<group>"; };
 		5ABF514919060CC900FA25D7 /* ProjectExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressViewController.m; sourceTree = "<group>"; };
-		5ABF514D190610BC00FA25D7 /* AOImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOImageView.h; sourceTree = "<group>"; };
-		5ABF514E190610BC00FA25D7 /* AOImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOImageView.m; sourceTree = "<group>"; };
-		5ABF514F190610BC00FA25D7 /* AOScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOScrollerView.h; sourceTree = "<group>"; };
-		5ABF5150190610BC00FA25D7 /* AOScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOScrollerView.m; sourceTree = "<group>"; };
+		5ABF514D190610BC00FA25D7 /* ProjectExpressImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressImageView.h; sourceTree = "<group>"; };
+		5ABF514E190610BC00FA25D7 /* ProjectExpressImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressImageView.m; sourceTree = "<group>"; };
+		5ABF514F190610BC00FA25D7 /* ProjectExpressScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressScrollerView.h; sourceTree = "<group>"; };
+		5ABF5150190610BC00FA25D7 /* ProjectExpressScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressScrollerView.m; sourceTree = "<group>"; };
 		5ABF5151190610BC00FA25D7 /* DDMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMacro.h; sourceTree = "<group>"; };
 		5ABF5152190610BC00FA25D7 /* NSURLAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLAdditions.h; sourceTree = "<group>"; };
 		5ABF5153190610BC00FA25D7 /* NSURLAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLAdditions.m; sourceTree = "<group>"; };
@@ -499,6 +505,17 @@
 			name = PersonalCenter;
 			sourceTree = "<group>";
 		};
+		5AB99F07190E4AE9002F0A65 /* PolicyHelperUrlImage */ = {
+			isa = PBXGroup;
+			children = (
+				5AB99F08190E4B3D002F0A65 /* PolicyHelperScrollerView.h */,
+				5AB99F09190E4B3D002F0A65 /* PolicyHelperScrollerView.m */,
+				5AB99F0A190E4B3D002F0A65 /* PolicyHelperImageView.h */,
+				5AB99F0B190E4B3D002F0A65 /* PolicyHelperImageView.m */,
+			);
+			name = PolicyHelperUrlImage;
+			sourceTree = "<group>";
+		};
 		5ABD08661908A2BD00A8CE34 /* ProjectExpress */ = {
 			isa = PBXGroup;
 			children = (
@@ -542,6 +559,7 @@
 		5ABF50AC1905FD2C00FA25D7 /* ProjectExpress */ = {
 			isa = PBXGroup;
 			children = (
+				5ABF516A190617E800FA25D7 /* ProjectExpressUrlImage */,
 				2C1BD59A190664B8002302BE /* ProjectExpressNavigationController.h */,
 				2C1BD59B190664B8002302BE /* ProjectExpressNavigationController.m */,
 				5ABF514819060CC900FA25D7 /* ProjectExpressViewController.h */,
@@ -561,6 +579,7 @@
 		5ABF50AD1905FD4100FA25D7 /* PolicyHelper */ = {
 			isa = PBXGroup;
 			children = (
+				5AB99F07190E4AE9002F0A65 /* PolicyHelperUrlImage */,
 				2C1BD59D190664DF002302BE /* PolicyHelperNavigationController.h */,
 				2C1BD59E190664DF002302BE /* PolicyHelperNavigationController.m */,
 				5AB5C7AD19090792003E3FB4 /* PolicyHelperTableViewController.h */,
@@ -774,7 +793,6 @@
 		5ABF514C190610BC00FA25D7 /* urlImage */ = {
 			isa = PBXGroup;
 			children = (
-				5ABF516A190617E800FA25D7 /* urlImage */,
 				5ABF5151190610BC00FA25D7 /* DDMacro.h */,
 				5ABF5152190610BC00FA25D7 /* NSURLAdditions.h */,
 				5ABF5153190610BC00FA25D7 /* NSURLAdditions.m */,
@@ -796,15 +814,16 @@
 			path = urlImage;
 			sourceTree = "<group>";
 		};
-		5ABF516A190617E800FA25D7 /* urlImage */ = {
+		5ABF516A190617E800FA25D7 /* ProjectExpressUrlImage */ = {
 			isa = PBXGroup;
 			children = (
-				5ABF514F190610BC00FA25D7 /* AOScrollerView.h */,
-				5ABF5150190610BC00FA25D7 /* AOScrollerView.m */,
-				5ABF514D190610BC00FA25D7 /* AOImageView.h */,
-				5ABF514E190610BC00FA25D7 /* AOImageView.m */,
+				5ABF514F190610BC00FA25D7 /* ProjectExpressScrollerView.h */,
+				5ABF5150190610BC00FA25D7 /* ProjectExpressScrollerView.m */,
+				5ABF514D190610BC00FA25D7 /* ProjectExpressImageView.h */,
+				5ABF514E190610BC00FA25D7 /* ProjectExpressImageView.m */,
 			);
-			name = urlImage;
+			name = ProjectExpressUrlImage;
+			path = ../urlImage;
 			sourceTree = "<group>";
 		};
 		5AE3001919065ECD00C3DB19 /* 项目快车 */ = {
@@ -1001,7 +1020,7 @@
 			files = (
 				2C1BD59C190664B8002302BE /* ProjectExpressNavigationController.m in Sources */,
 				5A3520CC1909566C006BC5F9 /* PolicyHelperDetailsViewController.m in Sources */,
-				5ABF5162190610BC00FA25D7 /* AOImageView.m in Sources */,
+				5ABF5162190610BC00FA25D7 /* ProjectExpressImageView.m in Sources */,
 				2C1BD5B61906702C002302BE /* MySettingTableViewController.m in Sources */,
 				5AB5C7A41908DB36003E3FB4 /* ProjectExpressMovingTableViewController.m in Sources */,
 				2CF011BA1908F75700D8D743 /* UIImageView+Reflected.m in Sources */,
@@ -1016,11 +1035,12 @@
 				2CF011B81908F75700D8D743 /* CPTextViewPlaceholder.m in Sources */,
 				5ABF5169190610BC00FA25D7 /* UrlImageView.m in Sources */,
 				2CF011C71908F7F000D8D743 /* OrderEvaluateWithCustomTableViewCell.m in Sources */,
-				5ABF5163190610BC00FA25D7 /* AOScrollerView.m in Sources */,
+				5ABF5163190610BC00FA25D7 /* ProjectExpressScrollerView.m in Sources */,
 				5ABF5166190610BC00FA25D7 /* SDWebImageDownloader.m in Sources */,
 				5AB5C7AF19090792003E3FB4 /* PolicyHelperTableViewController.m in Sources */,
 				2CF011C51908F7F000D8D743 /* FeedbackViewController.m in Sources */,
 				2C1BD59F190664DF002302BE /* PolicyHelperNavigationController.m in Sources */,
+				5AB99F0C190E4B3D002F0A65 /* PolicyHelperScrollerView.m in Sources */,
 				5AB5C7AC1908EF2E003E3FB4 /* ProjectExpressWebViewController.m in Sources */,
 				2CF011C61908F7F000D8D743 /* OrderEvaluateViewController.m in Sources */,
 				2CC114CD190513E100BC1DEC /* ViewController.m in Sources */,
@@ -1028,6 +1048,7 @@
 				2CC1157E19051BC300BC1DEC /* RootTabBarController.m in Sources */,
 				2CC114C7190513E100BC1DEC /* AppDelegate.m in Sources */,
 				5ABF5164190610BC00FA25D7 /* NSURLAdditions.m in Sources */,
+				5AB99F0D190E4B3D002F0A65 /* PolicyHelperImageView.m in Sources */,
 				2C1BD5B0190664F2002302BE /* RegisterViewController.m in Sources */,
 				2C1BD5AE190664F2002302BE /* LoginViewController.m in Sources */,
 				2CE863FE1909F61F00AA32FF /* ProjectExpressFormTableViewController.m in Sources */,

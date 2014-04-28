@@ -7,14 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AOScrollerView.h"
+#import "PolicyHelperScrollerView.h"
 
-@interface PolicyHelperTableViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate>
-//,ValueClickDelegate
+@interface PolicyHelperTableViewController : UITableViewController<UITableViewDataSource,UITableViewDelegate,ValueClickDelegate>
+
 
 @property (strong, nonatomic) IBOutlet UITableView *menuTableView;
 @property (strong, nonatomic) NSMutableArray *itemsInTable;
 @property (strong, nonatomic) NSArray *items;
-//@property (strong, nonatomic) NSArray *urls;
+@property (strong, nonatomic) NSArray *urls;
 
 @end

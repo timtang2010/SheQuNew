@@ -9,6 +9,7 @@
 #import "PolicyHelperTableViewController.h"
 #import "PolicyHelperTableViewCell.h"
 #import "PolicyHelperDetailsViewController.h"
+#import "ProjectExpressScrollerView.h"
 
 @interface PolicyHelperTableViewController (){
     NSMutableArray *arrayForBool;
@@ -45,9 +46,7 @@
     [self.itemsInTable addObjectsFromArray:self.items];
     
     self.title = @"政策助手";
-}
-
-/*
+    
     //设置网络图片
     NSMutableArray *webImageArray = [[NSMutableArray alloc]initWithObjects:
                                      @"http://203.156.251.85/sqmis/uploads//imgs/20140421152444683.jpg",
@@ -73,17 +72,28 @@
     
     //初始化自定义ScrollView类对象 并设置图片的高度 height = 179
     //    AOScrollerView *aSV = [[AOScrollerView alloc]initWithNameArr:webImageArray titleArr:WebImageName height:179];
-    AOScrollerView *aSV = [[AOScrollerView alloc]initWithNameArr:webImageArray
-                                                        titleArr:WebImageName
-                                                           frame:[self.view viewWithTag:322].frame];
+    //    CGRect frame = [self.view viewWithTag:322].frame;
+    //    frame = CGRectMake(frame.origin.x + 3, frame.origin.y, frame.size.width - 3*2, frame.size.height);
+    //    PolicyHelperScrollerView *aSV = [[PolicyHelperScrollerView alloc]initWithNameArr:webImageArray
+    //                                                        titleArr:WebImageName
+    //                                                           frame:frame];
+    //    aSV.clipsToBounds = YES;
+    //
+    //    //设置委托
+    //    aSV.vDelegate = self;
+    CGRect frame = [self.view viewWithTag:322].frame;
+    frame = CGRectMake(frame.origin.x + 3, frame.origin.y, frame.size.width - 3*2, frame.size.height);
+    ProjectExpressScrollerView *aSV = [[ProjectExpressScrollerView alloc]initWithNameArr:webImageArray
+                                                                                titleArr:WebImageName
+                                                                                   frame:frame];
     
     //设置委托
     aSV.vDelegate = self;
     
     //添加进入View
     [self.view addSubview:aSV];
- 
-
+    
+}
 
 #pragma AOScrollViewDelegate
 //点击图片的响应事件
@@ -105,8 +115,8 @@
     
 }
 
-*/
-    
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -117,14 +127,14 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
-//#warning Potentially incomplete method implementation.
+    //#warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-//#warning Incomplete method implementation.
+    //#warning Incomplete method implementation.
     // Return the number of rows in the section.
     return [self.itemsInTable count];
 }
@@ -322,52 +332,52 @@
 
 
 /*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
+ // Override to support conditional editing of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ // Return NO if you do not want the specified item to be editable.
+ return YES;
+ }
+ */
 
 /*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
-        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-    }   
-}
-*/
+ // Override to support editing the table view.
+ - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ if (editingStyle == UITableViewCellEditingStyleDelete) {
+ // Delete the row from the data source
+ [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+ } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+ // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+ }
+ }
+ */
 
 /*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
+ // Override to support rearranging the table view.
+ - (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
+ {
+ }
+ */
 
 /*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
+ // Override to support conditional rearranging of the table view.
+ - (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+ {
+ // Return NO if you do not want the item to be re-orderable.
+ return YES;
+ }
+ */
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 @end
