@@ -7,13 +7,44 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "RootTabBarController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    NSArray * array = NSSearchPathForDirectoriesInDomains(NSApplicationDirectory, NSUserDomainMask, YES);
+    NSString *path = [array objectAtIndex:0];
+    NSLog(@"%@", path);
+    
+    //增加标识，用于判断是否是第一次启动应用...
+    if (![[NSUserDefaults standardUserDefaults] boolForKey:@"everLaunched"])
+    {
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"everLaunched"];
+        [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"firstLaunch"];
+    }
+    
+    if ([[NSUserDefaults standardUserDefaults] boolForKey:@"firstLaunch"])
+    {
+        UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        ViewController * viewController = [storyboard instantiateViewControllerWithIdentifier:@"ViewController"];
+        self.window.rootViewController = viewController;
+    }
+    else
+    {
+        UIStoryboard * storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        RootTabBarController * rootTabBarController = [storyboard instantiateViewControllerWithIdentifier:@"RootTabBarController"];
+        self.window.rootViewController = rootTabBarController;
+    }
+    
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
+
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

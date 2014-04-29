@@ -42,7 +42,7 @@
         //图片总数
         int imageCount = [imageNameArr count];
         //标题总数
-        int titleCount =[titleStrArr count];
+        [titleStrArr count];
         //初始化scrollView
         imageSV = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, frame.size.width, frame.size.height)];
         //设置sview属性
@@ -79,7 +79,7 @@
             [imageSV addSubview:imageView];
         }
         //设置NSTimer
-        NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(changeView) userInfo:nil repeats:YES];
+        [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(changeView) userInfo:nil repeats:YES];
         
     }
     return self;
@@ -97,7 +97,7 @@
         //图片总数
         int imageCount = [imageNameArr count];
         //标题总数
-        int titleCount =[titleStrArr count];
+        [titleStrArr count];
         //初始化scrollView
         imageSV = [[UIScrollView alloc]initWithFrame:CGRectMake(0, 0, WIDTH, heightValue)];
         //设置sview属性
@@ -135,7 +135,7 @@
             [imageSV addSubview:imageView];
         }
         //设置NSTimer
-        NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(changeView) userInfo:nil repeats:YES];
+        [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(changeView) userInfo:nil repeats:YES];
         
         
     }

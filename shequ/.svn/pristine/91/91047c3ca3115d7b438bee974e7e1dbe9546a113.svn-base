@@ -49,13 +49,6 @@
 		5A3E95611907FE9A004DD12D /* ProjectExpressTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A3E95601907FE9A004DD12D /* ProjectExpressTableViewController.m */; };
 		5A3E9564190804C0004DD12D /* ProjectExpressList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E9563190804C0004DD12D /* ProjectExpressList.plist */; };
 		5A3E956D19080A67004DD12D /* shanghaiArea.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5A3E956C19080A67004DD12D /* shanghaiArea.plist */; };
-		5A603A0B190F523200E18EBB /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A603A08190F523200E18EBB /* EAIntroPage.m */; };
-		5A603A0C190F523200E18EBB /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A603A0A190F523200E18EBB /* EAIntroView.m */; };
-		5A603A13190F52CA00E18EBB /* 导航图1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A603A0E190F52CA00E18EBB /* 导航图1.jpg */; };
-		5A603A14190F52CA00E18EBB /* 导航图2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A603A0F190F52CA00E18EBB /* 导航图2.jpg */; };
-		5A603A15190F52CA00E18EBB /* 导航图3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A603A10190F52CA00E18EBB /* 导航图3.jpg */; };
-		5A603A16190F52CA00E18EBB /* 导航图4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A603A11190F52CA00E18EBB /* 导航图4.jpg */; };
-		5A603A17190F52CA00E18EBB /* 导航图5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A603A12190F52CA00E18EBB /* 导航图5.jpg */; };
 		5AB5C7A01908C287003E3FB4 /* 登陆_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5C79E1908C287003E3FB4 /* 登陆_03.png */; };
 		5AB5C7A11908C287003E3FB4 /* 登陆_05.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AB5C79F1908C287003E3FB4 /* 登陆_05.png */; };
 		5AB5C7A41908DB36003E3FB4 /* ProjectExpressMovingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB5C7A31908DB36003E3FB4 /* ProjectExpressMovingTableViewController.m */; };
@@ -124,6 +117,8 @@
 		5ABF513B1906016500FA25D7 /* 项目快车-公共服务-失智老人定位项目_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF50F11906016500FA25D7 /* 项目快车-公共服务-失智老人定位项目_03.png */; };
 		5ABF51431906016500FA25D7 /* 项目快车-公共服务-定位项目_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF50FB1906016500FA25D7 /* 项目快车-公共服务-定位项目_03.png */; };
 		5ABF51441906016500FA25D7 /* 项目快车-家政服务项目_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF50FD1906016500FA25D7 /* 项目快车-家政服务项目_03.png */; };
+		5ABF51451906016500FA25D7 /* 预约_03-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF50FF1906016500FA25D7 /* 预约_03-02.png */; };
+		5ABF51461906016500FA25D7 /* 预约_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF51001906016500FA25D7 /* 预约_03.png */; };
 		5ABF51471906016500FA25D7 /* 预约_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF51011906016500FA25D7 /* 预约_10.png */; };
 		5ABF514A19060CC900FA25D7 /* ProjectExpressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF514919060CC900FA25D7 /* ProjectExpressViewController.m */; };
 		5ABF5162190610BC00FA25D7 /* ProjectExpressImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF514E190610BC00FA25D7 /* ProjectExpressImageView.m */; };
@@ -141,10 +136,6 @@
 		5AE3002519065ECD00C3DB19 /* 项目快车_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3001E19065ECD00C3DB19 /* 项目快车_11.png */; };
 		5AE3002619065ECD00C3DB19 /* 项目快车_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3001F19065ECD00C3DB19 /* 项目快车_12.png */; };
 		5AE3002719065ECD00C3DB19 /* 项目快车_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE3002019065ECD00C3DB19 /* 项目快车_16.png */; };
-		5AFBC06F190E918100BD80CF /* MakeAppintmentWithCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBC06C190E918100BD80CF /* MakeAppintmentWithCustomTableViewCell.m */; };
-		5AFBC070190E918100BD80CF /* MakeAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFBC06E190E918100BD80CF /* MakeAppointmentViewController.m */; };
-		5AFBC073190E91E100BD80CF /* 预约_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFBC071190E91E100BD80CF /* 预约_01.png */; };
-		5AFBC074190E91E100BD80CF /* 预约_03.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AFBC072190E91E100BD80CF /* 预约_03.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -224,15 +215,6 @@
 		5A3E95601907FE9A004DD12D /* ProjectExpressTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressTableViewController.m; sourceTree = "<group>"; };
 		5A3E9563190804C0004DD12D /* ProjectExpressList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ProjectExpressList.plist; sourceTree = "<group>"; };
 		5A3E956C19080A67004DD12D /* shanghaiArea.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shanghaiArea.plist; sourceTree = "<group>"; };
-		5A603A07190F523200E18EBB /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
-		5A603A08190F523200E18EBB /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
-		5A603A09190F523200E18EBB /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
-		5A603A0A190F523200E18EBB /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
-		5A603A0E190F52CA00E18EBB /* 导航图1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "导航图1.jpg"; sourceTree = "<group>"; };
-		5A603A0F190F52CA00E18EBB /* 导航图2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "导航图2.jpg"; sourceTree = "<group>"; };
-		5A603A10190F52CA00E18EBB /* 导航图3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "导航图3.jpg"; sourceTree = "<group>"; };
-		5A603A11190F52CA00E18EBB /* 导航图4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "导航图4.jpg"; sourceTree = "<group>"; };
-		5A603A12190F52CA00E18EBB /* 导航图5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "导航图5.jpg"; sourceTree = "<group>"; };
 		5AB5C79E1908C287003E3FB4 /* 登陆_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆_03.png"; sourceTree = "<group>"; };
 		5AB5C79F1908C287003E3FB4 /* 登陆_05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆_05.png"; sourceTree = "<group>"; };
 		5AB5C7A21908DB36003E3FB4 /* ProjectExpressMovingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressMovingTableViewController.h; sourceTree = "<group>"; };
@@ -307,6 +289,8 @@
 		5ABF50F11906016500FA25D7 /* 项目快车-公共服务-失智老人定位项目_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目快车-公共服务-失智老人定位项目_03.png"; sourceTree = "<group>"; };
 		5ABF50FB1906016500FA25D7 /* 项目快车-公共服务-定位项目_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目快车-公共服务-定位项目_03.png"; sourceTree = "<group>"; };
 		5ABF50FD1906016500FA25D7 /* 项目快车-家政服务项目_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目快车-家政服务项目_03.png"; sourceTree = "<group>"; };
+		5ABF50FF1906016500FA25D7 /* 预约_03-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约_03-02.png"; sourceTree = "<group>"; };
+		5ABF51001906016500FA25D7 /* 预约_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约_03.png"; sourceTree = "<group>"; };
 		5ABF51011906016500FA25D7 /* 预约_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约_10.png"; sourceTree = "<group>"; };
 		5ABF514819060CC900FA25D7 /* ProjectExpressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectExpressViewController.h; sourceTree = "<group>"; };
 		5ABF514919060CC900FA25D7 /* ProjectExpressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectExpressViewController.m; sourceTree = "<group>"; };
@@ -338,12 +322,6 @@
 		5AE3001E19065ECD00C3DB19 /* 项目快车_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目快车_11.png"; sourceTree = "<group>"; };
 		5AE3001F19065ECD00C3DB19 /* 项目快车_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目快车_12.png"; sourceTree = "<group>"; };
 		5AE3002019065ECD00C3DB19 /* 项目快车_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "项目快车_16.png"; sourceTree = "<group>"; };
-		5AFBC06B190E918100BD80CF /* MakeAppintmentWithCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeAppintmentWithCustomTableViewCell.h; sourceTree = "<group>"; };
-		5AFBC06C190E918100BD80CF /* MakeAppintmentWithCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeAppintmentWithCustomTableViewCell.m; sourceTree = "<group>"; };
-		5AFBC06D190E918100BD80CF /* MakeAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeAppointmentViewController.h; sourceTree = "<group>"; };
-		5AFBC06E190E918100BD80CF /* MakeAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeAppointmentViewController.m; sourceTree = "<group>"; };
-		5AFBC071190E91E100BD80CF /* 预约_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约_01.png"; sourceTree = "<group>"; };
-		5AFBC072190E91E100BD80CF /* 预约_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "预约_03.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -413,7 +391,6 @@
 				2CC114C8190513E100BC1DEC /* Main.storyboard */,
 				2CC114CB190513E100BC1DEC /* ViewController.h */,
 				2CC114CC190513E100BC1DEC /* ViewController.m */,
-				5A603A06190F521A00E18EBB /* IntroView */,
 				5ABF50AC1905FD2C00FA25D7 /* ProjectExpress */,
 				5ABF50AD1905FD4100FA25D7 /* PolicyHelper */,
 				5ABF50AB1905FCE000FA25D7 /* LifeHelper */,
@@ -528,29 +505,6 @@
 			name = PersonalCenter;
 			sourceTree = "<group>";
 		};
-		5A603A06190F521A00E18EBB /* IntroView */ = {
-			isa = PBXGroup;
-			children = (
-				5A603A07190F523200E18EBB /* EAIntroPage.h */,
-				5A603A08190F523200E18EBB /* EAIntroPage.m */,
-				5A603A09190F523200E18EBB /* EAIntroView.h */,
-				5A603A0A190F523200E18EBB /* EAIntroView.m */,
-			);
-			name = IntroView;
-			sourceTree = "<group>";
-		};
-		5A603A0D190F52CA00E18EBB /* 导航图 */ = {
-			isa = PBXGroup;
-			children = (
-				5A603A0E190F52CA00E18EBB /* 导航图1.jpg */,
-				5A603A0F190F52CA00E18EBB /* 导航图2.jpg */,
-				5A603A10190F52CA00E18EBB /* 导航图3.jpg */,
-				5A603A11190F52CA00E18EBB /* 导航图4.jpg */,
-				5A603A12190F52CA00E18EBB /* 导航图5.jpg */,
-			);
-			path = "导航图";
-			sourceTree = "<group>";
-		};
 		5AB99F07190E4AE9002F0A65 /* PolicyHelperUrlImage */ = {
 			isa = PBXGroup;
 			children = (
@@ -618,10 +572,6 @@
 				5AB5C7A31908DB36003E3FB4 /* ProjectExpressMovingTableViewController.m */,
 				5AB5C7AA1908EF2E003E3FB4 /* ProjectExpressWebViewController.h */,
 				5AB5C7AB1908EF2E003E3FB4 /* ProjectExpressWebViewController.m */,
-				5AFBC06D190E918100BD80CF /* MakeAppointmentViewController.h */,
-				5AFBC06E190E918100BD80CF /* MakeAppointmentViewController.m */,
-				5AFBC06B190E918100BD80CF /* MakeAppintmentWithCustomTableViewCell.h */,
-				5AFBC06C190E918100BD80CF /* MakeAppintmentWithCustomTableViewCell.m */,
 			);
 			name = ProjectExpress;
 			sourceTree = "<group>";
@@ -673,7 +623,6 @@
 				5A3520CD19095C11006BC5F9 /* carat-open.png */,
 				5A3520CE19095C11006BC5F9 /* carat.png */,
 				2C1BD5B21906679D002302BE /* Steve Jobs.png */,
-				5A603A0D190F52CA00E18EBB /* 导航图 */,
 				5ABF50B01906016500FA25D7 /* 个人中心 */,
 				5ABF50B31906016500FA25D7 /* 个人中心-我的设置 */,
 				5ABF50BC1906016500FA25D7 /* 动态-活动预告 */,
@@ -823,8 +772,8 @@
 		5ABF50FE1906016500FA25D7 /* 预约 */ = {
 			isa = PBXGroup;
 			children = (
-				5AFBC071190E91E100BD80CF /* 预约_01.png */,
-				5AFBC072190E91E100BD80CF /* 预约_03.png */,
+				5ABF50FF1906016500FA25D7 /* 预约_03-02.png */,
+				5ABF51001906016500FA25D7 /* 预约_03.png */,
 				5ABF51011906016500FA25D7 /* 预约_10.png */,
 			);
 			path = "预约";
@@ -974,20 +923,18 @@
 				5ABF51441906016500FA25D7 /* 项目快车-家政服务项目_03.png in Resources */,
 				5AB5C7A61908DCC8003E3FB4 /* ProjectExpressNew.plist in Resources */,
 				5ABF510B1906016500FA25D7 /* 个人中心-我的设置_19.png in Resources */,
-				5A603A16190F52CA00E18EBB /* 导航图4.jpg in Resources */,
 				5A3E9564190804C0004DD12D /* ProjectExpressList.plist in Resources */,
 				5ABF51171906016500FA25D7 /* 政策助手_03-13.png in Resources */,
-				5A603A17190F52CA00E18EBB /* 导航图5.jpg in Resources */,
 				5ABF51121906016500FA25D7 /* 政策助手_03-08.png in Resources */,
 				5AB5C7B1190908B0003E3FB4 /* PolicyHelper.plist in Resources */,
 				5AE3002619065ECD00C3DB19 /* 项目快车_12.png in Resources */,
 				5ABF51371906016500FA25D7 /* 登陆_BLUE_10.png in Resources */,
 				5ABF511B1906016500FA25D7 /* 政策助手_03-17.png in Resources */,
 				5ABF51261906016500FA25D7 /* 政策助手-社保_03.png in Resources */,
-				5A603A14190F52CA00E18EBB /* 导航图2.jpg in Resources */,
 				2C1BD5B31906679D002302BE /* Steve Jobs.png in Resources */,
 				5ABF51241906016500FA25D7 /* 政策助手_13.png in Resources */,
 				5ABF51111906016500FA25D7 /* 政策助手_03-07.png in Resources */,
+				5ABF51451906016500FA25D7 /* 预约_03-02.png in Resources */,
 				5A3520D019095C11006BC5F9 /* carat.png in Resources */,
 				5ABF512A1906016500FA25D7 /* 生活帮手_13.png in Resources */,
 				5ABF512D1906016500FA25D7 /* 登陆_01.png in Resources */,
@@ -1001,12 +948,10 @@
 				5ABF51351906016500FA25D7 /* 登陆_13.png in Resources */,
 				2CF011BE1908F75700D8D743 /* star_full@2x.png in Resources */,
 				5ABF51071906016500FA25D7 /* 个人中心-我的设置_11.png in Resources */,
-				5AFBC073190E91E100BD80CF /* 预约_01.png in Resources */,
 				5ABF51021906016500FA25D7 /* 个人中心_03.png in Resources */,
 				5AB5C7A11908C287003E3FB4 /* 登陆_05.png in Resources */,
 				5ABF51231906016500FA25D7 /* 政策助手_11.png in Resources */,
 				5ABF512E1906016500FA25D7 /* 登陆_03-04.png in Resources */,
-				5A603A13190F52CA00E18EBB /* 导航图1.jpg in Resources */,
 				5ABF511F1906016500FA25D7 /* 政策助手_03.png in Resources */,
 				5ABF51051906016500FA25D7 /* 个人中心-我的设置_06.png in Resources */,
 				5ABF51381906016500FA25D7 /* 登陆_BLUE_11.png in Resources */,
@@ -1023,6 +968,7 @@
 				5ABF51201906016500FA25D7 /* 政策助手_05.png in Resources */,
 				5ABF51101906016500FA25D7 /* 动态-社区新闻_03.png in Resources */,
 				5ABF51271906016500FA25D7 /* 生活帮手_03.png in Resources */,
+				5ABF51461906016500FA25D7 /* 预约_03.png in Resources */,
 				5ABF51141906016500FA25D7 /* 政策助手_03-10.png in Resources */,
 				5ABF512B1906016500FA25D7 /* 生活帮手_16.png in Resources */,
 				5A3520CF19095C11006BC5F9 /* carat-open.png in Resources */,
@@ -1031,7 +977,6 @@
 				5ABF513B1906016500FA25D7 /* 项目快车-公共服务-失智老人定位项目_03.png in Resources */,
 				5AE3002419065ECD00C3DB19 /* 项目快车_10.png in Resources */,
 				5ABF510E1906016500FA25D7 /* 动态-活动预告_04.png in Resources */,
-				5AFBC074190E91E100BD80CF /* 预约_03.png in Resources */,
 				2CF011BB1908F75700D8D743 /* star_empty.png in Resources */,
 				5ABF51251906016500FA25D7 /* 政策助手-社保_03-02.png in Resources */,
 				2CF011BC1908F75700D8D743 /* star_empty@2x.png in Resources */,
@@ -1045,7 +990,6 @@
 				5ABF51061906016500FA25D7 /* 个人中心-我的设置_09.png in Resources */,
 				5ABF51391906016500FA25D7 /* 登陆_BLUE_12.png in Resources */,
 				5ABF51341906016500FA25D7 /* 登陆_12.png in Resources */,
-				5A603A15190F52CA00E18EBB /* 导航图3.jpg in Resources */,
 				5ABF51191906016500FA25D7 /* 政策助手_03-15.png in Resources */,
 				2CC114C1190513E100BC1DEC /* InfoPlist.strings in Resources */,
 				5A3E956D19080A67004DD12D /* shanghaiArea.plist in Resources */,
@@ -1080,9 +1024,7 @@
 				2C1BD5B61906702C002302BE /* MySettingTableViewController.m in Sources */,
 				5AB5C7A41908DB36003E3FB4 /* ProjectExpressMovingTableViewController.m in Sources */,
 				2CF011BA1908F75700D8D743 /* UIImageView+Reflected.m in Sources */,
-				5A603A0C190F523200E18EBB /* EAIntroView.m in Sources */,
 				5A3E95611907FE9A004DD12D /* ProjectExpressTableViewController.m in Sources */,
-				5A603A0B190F523200E18EBB /* EAIntroPage.m in Sources */,
 				5ABF5168190610BC00FA25D7 /* UrlImageButton.m in Sources */,
 				5AB5C7B41909090B003E3FB4 /* PolicyHelperTableViewCell.m in Sources */,
 				2C1BD5AF190664F2002302BE /* FindPasswordViewController.m in Sources */,
@@ -1095,7 +1037,6 @@
 				2CF011C71908F7F000D8D743 /* OrderEvaluateWithCustomTableViewCell.m in Sources */,
 				5ABF5163190610BC00FA25D7 /* ProjectExpressScrollerView.m in Sources */,
 				5ABF5166190610BC00FA25D7 /* SDWebImageDownloader.m in Sources */,
-				5AFBC070190E918100BD80CF /* MakeAppointmentViewController.m in Sources */,
 				5AB5C7AF19090792003E3FB4 /* PolicyHelperTableViewController.m in Sources */,
 				2CF011C51908F7F000D8D743 /* FeedbackViewController.m in Sources */,
 				2C1BD59F190664DF002302BE /* PolicyHelperNavigationController.m in Sources */,
@@ -1105,7 +1046,6 @@
 				2CC114CD190513E100BC1DEC /* ViewController.m in Sources */,
 				2CF011B91908F75700D8D743 /* RSTapRateView.m in Sources */,
 				2CC1157E19051BC300BC1DEC /* RootTabBarController.m in Sources */,
-				5AFBC06F190E918100BD80CF /* MakeAppintmentWithCustomTableViewCell.m in Sources */,
 				2CC114C7190513E100BC1DEC /* AppDelegate.m in Sources */,
 				5ABF5164190610BC00FA25D7 /* NSURLAdditions.m in Sources */,
 				5AB99F0D190E4B3D002F0A65 /* PolicyHelperImageView.m in Sources */,
