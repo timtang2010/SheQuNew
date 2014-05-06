@@ -10,10 +10,19 @@
 #import "ViewController.h"
 #import "RootTabBarController.h"
 
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    // 要使用百度地图，请先启动BaiduMapManager
+    self.mapManger = [[BMKMapManager alloc]init];
+    // 如果要关注网络及授权验证事件，请设定generalDelegate参数
+    BOOL ret = [self.mapManger start:@"qOB8PdUG05dF1ogdRc7KKXgb" generalDelegate:self];
+    if (!ret) {
+        NSLog(@"mapManger --> 启动失败");
+    }
+
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     NSArray * array = NSSearchPathForDirectoriesInDomains(NSApplicationDirectory, NSUserDomainMask, YES);
@@ -42,6 +51,7 @@
     
     [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
+    
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     return YES;
 
@@ -72,6 +82,21 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)onGetNetworkState:(int)iError
+{
+    if (0 == iError) {
+        NSLog(@"联网成功"); }
+    else{
+        NSLog(@"onGetNetworkState %d",iError); }
+}
+- (void)onGetPermissionState:(int)iError
+{
+    if (0 == iError) {
+        NSLog(@"授权成功"); }
+    else {
+        NSLog(@"onGetPermissionState %d",iError); }
 }
 
 @end

@@ -8,6 +8,7 @@
 
 #import "ProjectExpressViewController.h"
 #import "ProjectExpressTableViewController.h"
+#import "MakeAppointmentViewController.h"
 
 @interface ProjectExpressViewController ()
 
@@ -22,7 +23,10 @@
         // Custom initialization
     }
     return self;
+    
 }
+
+
 
 - (void)viewDidLoad
 {
@@ -65,8 +69,6 @@
     [self.view addSubview:aSV];
     
     self.title = @"项目快车";
-    
-    
     
 }
 
@@ -123,4 +125,14 @@
 
 
 
+- (IBAction)pushmakeAnAppointment:(id)sender {
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main"
+                                                         bundle:nil];
+    MakeAppointmentViewController * makeAppointmentViewController =[storyboard instantiateViewControllerWithIdentifier:@"MakeAppointmentViewController"];
+    
+    //指定页面隐藏TabBar
+    makeAppointmentViewController.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:makeAppointmentViewController
+                                         animated:YES];
+}
 @end

@@ -8,6 +8,7 @@
 
 #import "MakeAppointmentViewController.h"
 #import "MakeAppintmentWithCustomTableViewCell.h"
+#import "BaiduMapViewController.h"
 
 #define categoryRow 0
 #define detailRow 1
@@ -16,6 +17,12 @@
 {
     NSArray * categoryArrays;
     NSArray * detailArrays;
+    //定制Cell
+    NSDictionary *dictData;
+    NSArray *nameData;
+    NSArray *addressData;
+    NSArray *phoneData;
+    NSArray *imagePhoto;
 }
 
 @end
@@ -77,6 +84,14 @@
     self.detailTextField.inputAccessoryView = customPickerToolBar;
     
     [self.tableView registerClass:[MakeAppintmentWithCustomTableViewCell class] forCellReuseIdentifier:@"identifier"];
+    
+    //加载定制Cell的字典
+    NSString *path = [[NSBundle mainBundle]pathForResource:@"reserveService" ofType:@"plist"];
+    NSDictionary *dict = [[NSDictionary alloc]initWithContentsOfFile:path];
+    nameData = [dict objectForKey:@"name"];
+    addressData = [dict objectForKey:@"address"];
+    phoneData = [dict objectForKey:@"phone"];
+    imagePhoto = [dict objectForKey:@"image"];
 }
 
 - (void)pickerDoneClick
@@ -141,21 +156,54 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 8;
+    return [nameData count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString * identifier = @"identifier";
-    
-    MakeAppintmentWithCustomTableViewCell * cell = (MakeAppintmentWithCustomTableViewCell *)[tableView dequeueReusableCellWithIdentifier:identifier];
-
+    /*
+     static NSString * identifier = @"identifier";
+     
+     YYService_YYWithBigTableForMyCell_TableViewCell * cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+     
+     return cell;
+     */
+    static NSString *simpleTableIdentifier = @"Cell";
+    MakeAppintmentWithCustomTableViewCell *cell = (MakeAppintmentWithCustomTableViewCell *)[tableView dequeueReusableCellWithIdentifier:simpleTableIdentifier];
+    if (cell == nil) {
+        NSArray *nib = [[NSBundle mainBundle]loadNibNamed:@"Cell" owner:self options:nil];
+        cell = [nib objectAtIndex:0];
+    }
+    cell.YYName.text = [nameData objectAtIndex:indexPath.row];
+    cell.yyAddress.text =[addressData objectAtIndex:indexPath.row];
+    cell.YYPhone.text = [phoneData objectAtIndex:indexPath.row];
+    cell.YYImage.image = [UIImage imageNamed:[imagePhoto objectAtIndex:indexPath.row]];
     return cell;
 }
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 70;
+    return 100;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    NSLog(@"didSelectRowAtIndexPath, row = %d", [indexPath row]);
+    
+    UIStoryboard *storybpard = [UIStoryboard storyboardWithName:@"Main"
+                                                         bundle:nil];
+    BaiduMapViewController *baiduMapViewController = [storybpard instantiateViewControllerWithIdentifier:@"BaiduMapViewController"];
+    //把地址传递给百度地图所在的页面
+    baiduMapViewController.add = [addressData objectAtIndex:indexPath.row];
+    [self.navigationController pushViewController:baiduMapViewController animated:YES];
+}
+
+- (IBAction)PushBaiduMap:(id)sender {
+    UIStoryboard *storybpard = [UIStoryboard storyboardWithName:@"Main"
+                                                         bundle:nil];
+    BaiduMapViewController *baiduMapViewController = [storybpard instantiateViewControllerWithIdentifier:@"BaiduMapViewController"];
+    //把地址数组传递给百度地图的页面
+    baiduMapViewController.adds = addressData;
+    [self.navigationController pushViewController:baiduMapViewController animated:YES];
+}
 @end

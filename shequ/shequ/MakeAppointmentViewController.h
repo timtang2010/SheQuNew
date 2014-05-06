@@ -17,5 +17,7 @@
 @property (retain, nonatomic)UIPickerView * pickerView;
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
+- (IBAction)PushBaiduMap:(id)sender;
+
 
 @end

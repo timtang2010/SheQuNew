@@ -62,7 +62,7 @@
         <!--Make Appointment View Controller-->
         <scene sceneID="gOT-A1-UDQ">
             <objects>
-                <viewController id="Wxn-b3-AzS" customClass="MakeAppointmentViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MakeAppointmentViewController" id="Wxn-b3-AzS" customClass="MakeAppointmentViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sxo-Hb-U4z"/>
                         <viewControllerLayoutGuide type="bottom" id="Z9n-6h-GZc"/>
@@ -104,17 +104,53 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaS-jp-Gup">
-                                <rect key="frame" x="10" y="529" width="300" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="服务预约">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Tjn-pF-tJ7">
-                                <rect key="frame" x="0.0" y="115" width="320" height="406"/>
+                                <rect key="frame" x="0.0" y="114" width="320" height="454"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="100" id="fIP-Pw-RS4" customClass="MakeAppintmentWithCustomTableViewCell">
+                                        <rect key="frame" x="0.0" y="22" width="320" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fIP-Pw-RS4" id="fLf-WT-J3W">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="99"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sn8-zK-96G">
+                                                    <rect key="frame" x="0.0" y="15" width="70" height="70"/>
+                                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3as-5a-l7L">
+                                                    <rect key="frame" x="75" y="10" width="212" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="address" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZLB-ST-1Xg">
+                                                    <rect key="frame" x="75" y="39" width="212" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="phone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlC-Qu-Tz5">
+                                                    <rect key="frame" x="75" y="68" width="212" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="YYImage" destination="sn8-zK-96G" id="GRh-6I-Gmc"/>
+                                            <outlet property="YYName" destination="3as-5a-l7L" id="nkw-vP-gzy"/>
+                                            <outlet property="YYPhone" destination="AlC-Qu-Tz5" id="qnD-ME-sDQ"/>
+                                            <outlet property="yyAddress" destination="ZLB-ST-1Xg" id="boe-YT-X0N"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                                 <connections>
                                     <outlet property="dataSource" destination="Wxn-b3-AzS" id="UzI-P8-TW9"/>
                                     <outlet property="delegate" destination="Wxn-b3-AzS" id="Pkb-Zs-1ZX"/>
@@ -123,9 +159,15 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="f3y-Ez-Sen">
-                        <barButtonItem key="rightBarButtonItem" title="地图" id="jOB-dq-MZD"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="FDK-wg-csi">
+                        <barButtonItem key="rightBarButtonItem" tag="1" title="地图" id="ziY-Ur-Oel">
+                            <connections>
+                                <action selector="PushBaiduMap:" destination="Wxn-b3-AzS" id="ERe-Y7-wjt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="categoryTextField" destination="ksh-1H-fgT" id="EAH-09-23R"/>
                         <outlet property="detailTextField" destination="tK4-o5-IOt" id="38O-c5-lc1"/>
@@ -134,7 +176,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="60o-Jk-UfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="905" y="-1520"/>
+            <point key="canvasLocation" x="525" y="-1496"/>
+        </scene>
+        <!--Baidu Map View Controller-->
+        <scene sceneID="tAJ-xC-qbw">
+            <objects>
+                <viewController storyboardIdentifier="BaiduMapViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="VfP-7p-7Mm" customClass="BaiduMapViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1fd-Pz-9av"/>
+                        <viewControllerLayoutGuide type="bottom" id="NNY-a3-46S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yLr-1B-4u0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xD1-kW-juo" customClass="BMKMapView">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dan-Ez-0U2"/>
+                    <connections>
+                        <outlet property="mapView" destination="xD1-kW-juo" id="C4h-gQ-eGt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xxB-XD-VVv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926" y="-1496"/>
         </scene>
         <!--Project Express View Controller-->
         <scene sceneID="s7m-Zh-RTz">
@@ -235,7 +306,7 @@
                         <barButtonItem key="rightBarButtonItem" image="登陆_05.png" id="Vrj-sn-GJm">
                             <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
-                                <segue destination="Wxn-b3-AzS" kind="push" id="fR4-IK-QZP"/>
+                                <action selector="pushmakeAnAppointment:" destination="9kQ-1g-WoG" id="atm-NR-rPb"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

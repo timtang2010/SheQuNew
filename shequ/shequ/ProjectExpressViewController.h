@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "ProjectExpressScrollerView.h"
+#import "MakeAppointmentViewController.h"
 
 @interface ProjectExpressViewController : UIViewController<ValueClickDelegate>
 @property (strong, nonatomic) NSArray *urls;
+- (IBAction)pushmakeAnAppointment:(id)sender;
 
 @end
